@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d489ef51-54f6-4407-93c6-c5e7334f9d9f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../SRS&amp;SDD/SDD_application_management_inventory.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../SRS&amp;SDD/SDD_application_management_inventory.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SRS&amp;SDD/~$D_application_management_inventory.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SRS&amp;SDD/~$S_application_management_inventory.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../management_inventory/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d489ef51-54f6-4407-93c6-c5e7334f9d9f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,12 +17,9 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="37dXOvSvIE3UnovWNbDHOsHB9x3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,11 +30,7 @@
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "ini-wisnu",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/adowi/OneDrive/Documents/ipl_tubes/tubes_ipl_kelompok_4/program/app_inventory",
     "onboarding.tips.debug.path": "C:/Users/adowi/OneDrive/Documents/app_inventory/src/Main.java",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",

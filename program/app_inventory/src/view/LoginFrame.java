@@ -100,6 +100,51 @@ public class LoginFrame extends JFrame {
         gbc.insets = new Insets(0, 0, 35, 0);
         card.add(txtPass, gbc);
 
+        // 5. Login Button
+        JButton btnLogin = new JButton("Sign In Securely");
+        btnLogin.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        btnLogin.setFont(new Font("Inter", Font.BOLD, 14));
+        btnLogin.putClientProperty(FlatClientProperties.STYLE, "" +
+                "background: #4f46e5;" +
+                "foreground: #ffffff;" +
+                "arc: 15;" +
+                "borderWidth: 0;" +
+                "focusWidth: 0;");
+        btnLogin.setPreferredSize(new Dimension(0, 50));
+        gbc.gridy = 6;
+        gbc.insets = new Insets(0, 0, 0, 0);
+        card.add(btnLogin, gbc);
+
+        // 6. Action Logic
+        btnLogin.addActionListener(e -> {
+            String u = txtUser.getText();
+            String p = new String(txtPass.getPassword());
+            if (u.isEmpty() || p.isEmpty()) {
+                JOptionPane.showMessageDialog(this, "Fields cannot be empty", "Warning", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
+            int adminId = new InventoryDAO().getAdminId(u, p);
+            if (adminId != -1) {
+                new MainFrame(adminId).setVisible(true);
+                this.dispose();
+            } else {
+                showError("Invalid username or password.");
+            }
+        });
+
+        // 7. Footer
+        JLabel lblFooter = new JLabel("© 2026 Powered by Kelompok 4");
+        lblFooter.setFont(new Font("Inter", Font.PLAIN, 11));
+        lblFooter.setForeground(new Color(148, 163, 184));
+        lblFooter.setHorizontalAlignment(SwingConstants.CENTER);
+        gbc.gridy = 7;
+        gbc.insets = new Insets(40, 0, 0, 0);
+        card.add(lblFooter, gbc);
+
+        root.add(card);
+        add(root);
+    }
+
     private void showError(String msg) {
         // Dialog modern kustom bisa ditambahkan di sini
         JOptionPane.showMessageDialog(this, msg, "Auth Error", JOptionPane.ERROR_MESSAGE);

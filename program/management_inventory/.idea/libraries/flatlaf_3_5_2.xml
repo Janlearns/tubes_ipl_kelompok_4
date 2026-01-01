@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="flatlaf-3.5.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/flatlaf-3.5.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/flatlaf-extras-3.5.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/flatlaf-fonts-roboto-2.137.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/flatlaf-intellij-themes-3.2.5.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/itextpdf-5.5.13.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/jbcrypt-0.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/jsvg-1.4.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/miglayout-core-5.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/miglayout-swing-5.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/modal-dialog-2.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/modal-dialog-demo-2.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/mysql-connector-j-8.0.31.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/poi-4.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/poi-ooxml-4.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/poi-ooxml-schemas-4.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/stax-api-1.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/xmlbeans-3.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/commons-collections4-4.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/commons-compress-1.19.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/flatlaf-3.5.2-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/lib/lib/flatlaf-3.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
